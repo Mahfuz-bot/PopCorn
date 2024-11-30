@@ -2,9 +2,10 @@
 
 > Movie/Series record list
 
-# URL
+## Video link & Vercel URL
 
-- [Link](https://youtu.be/5DSRI8nXt2U)
+- [Video Link](https://youtu.be/5DSRI8nXt2U)
+- [URL](https://pop-corn-six.vercel.app/)
 
 ## Tech Stack
 
