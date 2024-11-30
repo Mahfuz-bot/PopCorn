@@ -35,6 +35,7 @@
   - After back main page it automatically changes to normal
 - Also from watched list how many movie is being watched till now is also counted along with time
 - The whole app runs smoothly without **any reload**
+- **Data is fetched by external API which is managed by my expressJS, so the link is work as PROXY**
 
 > User authentication will add on future update
 >
