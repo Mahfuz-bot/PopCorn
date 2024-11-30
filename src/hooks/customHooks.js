@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 
 // const API_KEY = "9504a4a4";
-const MOVIE_URL = import.meta.env.VITE_MOVIE_URL || "http://www.omdbapi.com/";
-const MOVIES_URL = import.meta.env.VITE_MOVIES_URL || "http://www.omdbapi.com/";
+const MOVIE_URL = import.meta.env
+  .VITE_MOVIE_URL; /* || "http://www.omdbapi.com/"; */
+const MOVIES_URL = import.meta.env
+  .VITE_MOVIES_URL; /* || "http://www.omdbapi.com/"; */
 
 export function useMovieDetails(id) {
   const [movie, setMovie] = useState([]);
@@ -17,7 +19,7 @@ export function useMovieDetails(id) {
           setIsLoadingd(true);
           setErrord("");
           const url = new URL(MOVIE_URL);
-          url.searchParams.append("apikey", API_KEY);
+          // url.searchParams.append("apikey", API_KEY);
           url.searchParams.append("i", id);
 
           const res = await fetch(url.toString(), {
@@ -67,7 +69,7 @@ export function useMovie(query, type = null) {
           setIsLoading(true);
           setError("");
           const url = new URL(MOVIES_URL);
-          url.searchParams.append("apikey", API_KEY);
+          // url.searchParams.append("apikey", API_KEY);
           url.searchParams.append("s", query);
 
           if (type === "movie") {
