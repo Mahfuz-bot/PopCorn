@@ -3,8 +3,8 @@
 > Movie/Series record list
 
 ## Video link & Vercel URL
-
-- [Video Link](https://youtu.be/5DSRI8nXt2U)
+- [loom Video link](https://www.loom.com/share/3be8ca758db64ba39120b13fe4acd0fc?sid=e681bec3-796e-4d65-85a8-9351f5475187)
+- [youtube Video Link](https://youtu.be/5DSRI8nXt2U)
 - [URL](https://pop-corn-six.vercel.app/)
 
 ## Tech Stack
